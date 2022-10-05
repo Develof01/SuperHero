@@ -1,6 +1,4 @@
-package com.superheros.mx.ui
-
-import androidx.compose.ui.graphics.Color
+package com.superheros.mx.commons.ui
 
 /**
  * SuperHeroColors

@@ -1,4 +1,4 @@
-package com.superheros.mx.ui
+package com.superheros.mx.commons.ui
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

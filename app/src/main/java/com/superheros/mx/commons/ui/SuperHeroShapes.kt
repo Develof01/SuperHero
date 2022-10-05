@@ -1,4 +1,4 @@
-package com.superheros.mx.ui
+package com.superheros.mx.commons.ui
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
