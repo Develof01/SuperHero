@@ -1,12 +1,12 @@
-package com.superheros.mx
+package com.superheros.mx.features.splash.presentation.view.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.compose.material.Text
-import com.superheros.mx.ui.BasicsSuperHeroTheme
+import com.superheros.mx.commons.ui.BasicsSuperHeroTheme
 
-class MainActivity : AppCompatActivity() {
+class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
