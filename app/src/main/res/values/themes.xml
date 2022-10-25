@@ -23,6 +23,6 @@
         <item name="colorOnSurfaceVariant">@color/brown_on_surface</item>
         <item name="colorOutline">@color/brown_outline</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
     </style>
 </resources>
