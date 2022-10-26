@@ -15,12 +15,16 @@ import kotlinx.coroutines.launch
 
 class SplashViewModel: ViewModel() {
 
+    companion object {
+        const val TIME_TO_SHOW_SPLASH = 3000L
+    }
+
     private val _isLoading = MutableStateFlow(false)
     val isLoading = _isLoading.asStateFlow()
 
     init {
         viewModelScope.launch {
-            delay(3000)
+            delay(TIME_TO_SHOW_SPLASH)
             _isLoading.value = true
         }
     }
