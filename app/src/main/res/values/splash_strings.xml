@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="go_to_home">Go to home</string>
+    <string name="go_to_walkthrough">Walkthrough</string>
+    <string name="splash_subtitle">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.
+    </string>
 </resources>
