@@ -15,7 +15,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import com.superheros.mx.R
 import com.superheros.mx.commons.ui.theme.SuperHeroTheme
 import com.superheros.mx.features.splash.presentation.view.components.initScreen
 import com.superheros.mx.features.splash.presentation.viewModel.SplashViewModel

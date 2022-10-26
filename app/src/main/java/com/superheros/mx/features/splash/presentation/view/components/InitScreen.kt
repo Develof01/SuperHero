@@ -71,14 +71,16 @@ fun initScreen(
         ) {
             Text(
                 text = stringResource(id = R.string.app_name),
-                style = MaterialTheme.typography.headlineMedium
+                style = MaterialTheme.typography.headlineMedium,
+                color = MaterialTheme.colorScheme.onBackground
             )
             Spacer(modifier = Modifier.height(2.dp))
             Text(
                 modifier = Modifier.padding(start = 16.dp, end = 16.dp),
                 text = stringResource(id = R.string.splash_subtitle),
                 textAlign = TextAlign.Center,
-                style = MaterialTheme.typography.bodyMedium
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onBackground
             )
             Spacer(modifier = Modifier.height(32.dp))
             HeroButton(
